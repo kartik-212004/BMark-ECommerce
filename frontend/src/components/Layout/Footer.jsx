@@ -3,8 +3,8 @@ import {
   AiFillFacebook,
   AiFillInstagram,
   AiFillYoutube,
-  AiOutlineTwitter,
 } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import {
   footercompanyLinks,
@@ -49,7 +49,7 @@ const Footer = () => {
     <AiFillFacebook size={25} className="cursor-pointer" />
   </a>
   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "15px" }}>
-    <AiOutlineTwitter size={25} className="cursor-pointer" />
+    <FaXTwitter size={25} className="cursor-pointer" />
   </a>
   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "15px" }}>
     <AiFillInstagram size={25} className="cursor-pointer" />
