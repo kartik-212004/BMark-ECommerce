@@ -38,7 +38,7 @@ const Sponsored = () => {
         <div className="flex items-start">
           <img
             src="https://logodix.com/logo/4937.png"
-            style={{width:"150px", objectFit:"contain"}}
+            style={{width:"150px",height:"80px", objectFit:"contain"}}
             alt=""
           />
         </div>
